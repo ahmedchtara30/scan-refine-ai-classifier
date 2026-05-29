@@ -78,7 +78,7 @@ python app.py
 | **Performance on low-end devices** | Feature engineering instead of raw-image CNN |
 
 ## 📬 Contact & Collaboration
-📧 chtara45@gmail.com | 📍 Sfax, Tunisia
+📧 chtaraahmed30@gmail.com | 📍 Tunisia
 🔗 LinkedIn | 🌐 Available for remote freelance
 Open to: Python automation, ML prototyping, embedded AI projects
 
