@@ -34,15 +34,25 @@ Instead of heavy deep learning, I engineered **5 lightweight features** for fast
 | **Tools** | Git, GitHub, VS Code, PIL/Pillow, NumPy |
 
 ## 📁 Project Structure
+
 scan-refine-ai-classifier/
+
 ├── app.py # Flask backend: routes, prediction, DB
+
 ├── train.py # Model training script
+
 ├── model.joblib # Trained KNN model (serialized)
+
 ├── project.db # SQLite database (scan history)
+
 ├── requirements.txt # Python dependencies
+
 ├── templates/
+
 │ ├── index.html # Main upload UI
+
 │ └── history.html # Scan history page
+
 └── README.md
 
 ## 🚀 Run Locally
