@@ -58,8 +58,7 @@ python train.py
 # 3. Launch app
 python app.py
 # Open http://localhost:5000 in your browser
-
-##💡 Engineering Challenges Solved
+## 💡 Engineering Challenges Solved
 Metal vs. Paper confusion: Weighted saturation variance to detect neutral vs. textured surfaces
 Background interference : ROI cropping to focus on object center (40%)
 Performance on low-end devices : Feature engineering instead of raw-image CNN
