@@ -58,7 +58,7 @@ scan-refine-ai-classifier/
 ## 🚀 Run Locally
 ```bash
 # 1. Clone & install
-git clone https://github.com/ahmedchtara/scan-refine-ai-classifier.git
+git clone https://github.com/ahmedchtara30/scan-refine-ai-classifier.git
 cd scan-refine-ai-classifier
 pip install -r requirements.txt
 
