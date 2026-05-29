@@ -52,3 +52,5 @@ def predict():
                label, category, "ROI-Analysis")
 
     return jsonify({"label": label, "category": category, "confidence": "91%"})
+if __name__ == "__main__":
+    app.run(debug=True, port=5000)
