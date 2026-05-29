@@ -8,8 +8,15 @@ from PIL import Image
 
 app = Flask(__name__)
 db = SQL("sqlite:///project.db")
-model = joblib.load('model.joblib')
-
+model_path = 'model.joblib'
+if os.path.exists(model_path):
+    model = joblib.load(model_path)
+else:
+    print(f"[WARNING] {model_path} not found. Please run train.py first to generate the model.")
+    print("For demo purposes, using a dummy classifier...")
+    from sklearn.dummy import DummyClassifier
+    model = DummyClassifier(strategy='most_frequent')
+    
 def get_features(img):
     img = img.convert('RGB').resize((64, 64))
     img_array = np.array(img)
