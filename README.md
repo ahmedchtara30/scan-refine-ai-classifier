@@ -58,4 +58,19 @@ python train.py
 # 3. Launch app
 python app.py
 # Open http://localhost:5000 in your browser
+```
+## 💡 Engineering Challenges Solved
+
+| Problem | Solution |
+|---------|----------|
+| **Metal vs. Paper confusion** | Weighted saturation variance to detect neutral vs. textured surfaces |
+| **Background interference** | ROI cropping to focus on object center (40%) |
+| **Performance on low-end devices** | Feature engineering instead of raw-image CNN |
+
+## 📬 Contact & Collaboration
+📧 chtara45@gmail.com | 📍 Sfax, Tunisia
+🔗 LinkedIn | 🌐 Available for remote freelance
+Open to: Python automation, ML prototyping, embedded AI projects
+
+Portfolio under active development. Full source available upon request for verified clients.
 
